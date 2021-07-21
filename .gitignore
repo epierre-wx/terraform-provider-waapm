@@ -17,4 +17,4 @@ terraform.tfstate.backup
 go.sum
 terraform-provider-waapm
 vendor/
-
+dist/
