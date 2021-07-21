@@ -14,3 +14,7 @@
 main.tf
 terraform.tfstate
 terraform.tfstate.backup
+go.sum
+terraform-provider-waapm
+vendor/
+
