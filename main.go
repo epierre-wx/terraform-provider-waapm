@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/wallix/terraform-provider-waapm/waapm"
+	"github.com/epierre-wx/terraform-provider-waapm/waapm"
         "github.com/hashicorp/terraform-plugin-sdk"
 )
 
