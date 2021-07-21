@@ -1,4 +1,4 @@
-module github.com/wallix/terraform-waapm
+module github.com/epierre-wx/terraform-provider-waapm
 
 go 1.13
 
