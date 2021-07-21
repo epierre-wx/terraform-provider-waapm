@@ -12,7 +12,7 @@ import (
 )
 
 // Provider implementation for waapm
-func Provider() terraform.ResourceProvider {
+func Provider() *schema.Provider {
 	return &schema.Provider{
 		DataSourcesMap: map[string]*schema.Resource{
 			"waapm_account": dataSourceSecret(),
