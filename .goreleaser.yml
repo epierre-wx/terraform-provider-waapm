@@ -33,7 +33,7 @@ archives:
   name_template: '{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}'
 checksum:
   #  name_template: '{{ .ProjectName }}_{{ .Version }}_SHA256SUMS'
-  name_template: '{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}_x5_SHA256SUMS'
+  name_template: '{{ .ProjectName }}_v{{ .Version }}_{{ .Arch }}_x5_SHA256SUMS'
   algorithm: sha256
 signs:
   - artifacts: checksum
